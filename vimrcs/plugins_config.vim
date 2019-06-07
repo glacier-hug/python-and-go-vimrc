@@ -63,7 +63,9 @@ let g:user_zen_mode='a'
 """"""""""""""""""""""""""""""
 let g:snips_author="your name"
 let g:snips_email="your email"
-
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 """"""""""""""""""""""""""""""
 " => Vim grep
 """"""""""""""""""""""""""""""
@@ -216,6 +218,7 @@ let g:jedi#usages_command = '<leader>ju'
 let g:jedi#goto_command = '<leader>jd'
 let g:jedi#goto_assignments_command = '<leader>ja'
 let g:jedi_motion = 1
+let g:jedi#popup_on_dot = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => tagbar
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
